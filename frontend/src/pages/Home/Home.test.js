@@ -101,4 +101,4 @@ describe('Test Home', () => {
     //The word Appeateasers should be in there as defined in the mock response above.
     expect(await screen.findByText('Appeteasers')).toBeInTheDocument();
   });
-});00
+});
